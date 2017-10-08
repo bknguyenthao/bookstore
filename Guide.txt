@@ -1,0 +1,15 @@
+Setup database:
+  - use bookstore
+  - db.createCollection("books")
+Run server
+  - npm install
+  - nodemon app
+Go to resteasy extension:
+  - post to url: http://localhost:3000/api/books/add
+  - set header: Content-Type: application/json
+  - content post: {"title":"Hit Refresh: The Quest to Rediscover Microsoft’s Soul and Imagine a Better Future for Everyone", "genre":"Economic", "description":" Hit Refresh is about individual change, the transformation happening inside Microsoft, and the arrival of the most exciting and disruptive wave of technology humankind has experienced – including artificial intelligence, mixed reality, and quantum computing. It examines how people, organizations, and societies can and must transform, how they must ‘hit refresh’ in their persistent quest for new energy, new ideas, and continued relevance and renewal. Yet at its core, it’s about humans and how one of our essential qualities – empathy – will become ever more valuable in a world where technological advancement will alter the status quo as never before.", "author":"Satya Nadella", "publisher":"nguyenthao", "image_url":" https://images-na.ssl-images-amazon.com/images/I/71hGOMpTPFL.jpg ","buy_url":" https://www.amazon.in/gp/product/000824765X/ref=s9_acss_bw_cg_BRECHPJa_2a1_w?pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-3&pf_rd_r=4Z62E63XZF5W5442SDQH&pf_rd_t=101&pf_rd_p=c9ae1353-3cf1-4e51-953f-95076a636e66&pf_rd_i=976389031 ", "pages":"400"}
+
+Run client:
+  - npm install
+  - nodemon start
+  - go http://localhost:4200/
